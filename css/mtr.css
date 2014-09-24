@@ -1,0 +1,138 @@
+#minstoreadsettings h1 
+{
+    font-family: arial;
+    font-weight: 300;
+}
+
+#minstoread 
+{
+    background-color: #000;
+    border-radius: 3px;
+    color: #fff;    
+    font-family: Georgia;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 3px 8px;
+    position: fixed;    
+    font-family: arial;  
+    z-index: 500;
+    margin: 10px;
+    right: 0;
+}
+
+.mtr_general_settings
+{
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    background-color: #ffffff;
+    padding: 10px;  
+    position: relative;
+    min-height: 400px;
+}
+
+.mtr_general_settings > h3 
+{
+    border-bottom: 1px solid #eeeeee;
+    margin: 0;
+    padding: 10px 10px 20px;
+    font-size: 20px;
+    cursor: move;
+}
+
+.calculatemistoreadforposts
+{
+    width: 50%;   
+    float: right;
+    margin-top: 10px;
+}
+
+#mtr_settings_form
+{
+    width: 50%;
+    float: left;
+}
+
+.minstoreadforposts 
+{
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#minstoreadforallposts:focus
+{
+    box-shadow: none;
+}
+
+#minstoreadforallposts 
+{
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-left: 20px;
+    padding: 5px 20px;
+    text-decoration: none;
+    outline: none !important;
+    cursor: pointer;
+    border: 1px solid #cccccc;
+}
+
+#mtr_settings_form button
+{
+    margin-left: 10px;
+}
+
+#mtr_settings_form table td
+{
+	padding: 10px;
+}
+
+#mtr_settings_form input
+{
+	font-weight: 600;
+    height: 30px;
+    width: 100%;
+    border-radius: none;
+    padding: 5px 10px;
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07) inset;
+    color: #333333;
+    transition: border-color 0.05s ease-in-out 0s;
+}
+
+#mtr_settings_form select
+{
+	height: 30px;
+    width: 100%;
+}
+
+.mtr_success_msg
+{
+	font-size: 20px;
+	padding-left: 15px;
+	color: #368000;
+}
+
+.createdby 
+{
+    bottom: -5px;
+    font-size: 14px;
+    position: absolute;
+    right: 10px;
+}
+
+.createdby a
+{
+    text-decoration: none;
+    font-size: 15px;
+    padding-left: 5px;
+    color: #252525;
+    transition-duration: 1s;
+}
+
+.createdby a:hover
+{
+    color: #ff0000;
+    border-bottom: 1px dotted #252525;
+    transition-duration: 1s;
+}
