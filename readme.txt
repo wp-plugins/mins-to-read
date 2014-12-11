@@ -1,5 +1,5 @@
 === Mins To Read ===
-Contributors: think201, vivekpandey
+Contributors: think201, anuragrath, vivekpandey
 Tags: time to read, wordpress plugin, blog, read time, calculation, minutes, words, time, calculator, 
 Requires at least: 3.5.2
 Donate link: http://www.think201.com/
@@ -79,3 +79,6 @@ To be updated soon
 
 = 1.0 =
 - First commit to the WP repository.
+
+= 1.1 =
+- Minor Bug Fixes
