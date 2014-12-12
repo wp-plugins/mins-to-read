@@ -4,8 +4,8 @@ Tags: time to read, wordpress plugin, blog, read time, calculation, minutes, wor
 Requires at least: 3.5.2
 Donate link: http://www.think201.com/
 Tested up to: 4.0
-Stable tag: 1.0
-Version: 1.0
+Stable tag: 1.1
+Version: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
