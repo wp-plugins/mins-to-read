@@ -75,6 +75,10 @@ To be updated soon
 
 * Initial version of Mins To Read Plugin checkin.
 
+= 1.1 =
+
+* Minor Bug fixes
+
 == Changelog ==
 
 = 1.0 =
