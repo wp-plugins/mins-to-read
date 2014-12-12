@@ -4,7 +4,7 @@ Plugin Name: Mins To Read
 Plugin URI: http://www.think201.com
 Description: Mins To Read is a plugin which calculates the read time of a blog post based on words present in it.
 Author: Think201, Vivek Pandey, Anurag Rath
-Version: 1.0
+Version: 1.1
 Author URI: http://www.think201.com
 License: GPL v1
 
