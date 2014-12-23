@@ -36,6 +36,7 @@ class MTRAdmin
         if(is_admin()) 
         {        
             wp_enqueue_style( 'think201-wp', plugins_url( 'mins-to-read/css/think201-wp.css' ), '', MTR_VERSION, 'all' );
+            wp_enqueue_style( 'mtr', plugins_url( 'mins-to-read/css/mtr.css' ), '', MTR_VERSION, 'all' );
         }
     }
 

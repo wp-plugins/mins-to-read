@@ -44,10 +44,16 @@
       // get the data from db
       $data = unserialize(get_option(MTR_MINS_READ)); 
 ?>
-<div id="minstoreadsettings" class="wrap">
-	<h1><?php echo _( 'Mins To Read' ); ?></h1>
-	<div class="mtr_general_settings">
+
+<div class='wrap'>
+ <h2><?php echo _( 'Mins To Read' ); ?></h2>
+
+  <div class="tbox">
+    <div class="tbox-heading">
 		<h3>Settings</h3>
+      <a href="http://labs.think201.com/mins-to-read" target="_blank" class="pull-right">Need help?</a>
+    </div>
+    <div class="tbox-body">
 		<form name="mtr_settings_form" id="mtr_settings_form" action="<?php the_permalink(); ?>" method="post">	        
         <table>
         	<tr>
@@ -68,13 +74,15 @@
         <button class="button button-primary" type="submit"><?php echo _( 'Save Settings' ); ?></button>
     </form>
         
-		<div class="calculatemistoreadforposts">
 			<form name="calculatemistoreadforposts" id="calculatemistoreadforposts" action="<?php the_permalink(); ?>" method="post">
 				<span class="minstoreadforposts">Get mins to read for all posts</span>
 				<input type="hidden" name="submitted" id="submitted" value="save" /> 
-				<button type="sunmit" id="minstoreadforallposts"><?php echo _( 'Run' ); ?></button>
+        <button type="submit" id="minstoreadforallposts" class="button-primary">Calculate MTR for all Posts</button>  
 			</form>
+
+    </div>
+    <div class="tbox-footer">
+      Set the average reading speed of your blog readers in words per minute.
 		</div>  
-		<p class="createdby">Created By<a href="http://think201.com" target="_blank">Think201</a></p>
 	</div>
 </div>
