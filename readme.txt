@@ -4,8 +4,8 @@ Tags: time to read, wordpress plugin, blog, read time, calculation, minutes, wor
 Requires at least: 3.5.2
 Donate link: http://www.think201.com/
 Tested up to: 4.0
-Stable tag: 1.1
-Version: 1.1
+Stable tag: 1.2
+Version: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -23,9 +23,7 @@ Mins To Read is a plugin which calculates the read time of a blog post based on 
 - Calculate read time for existing posts in a single click
 - Set read speed for articles.
 - Read time will be updated according to the update of the post.
-- Default positions available
-- Addition of custom classes feasible
-- Function calls for mins to read can be made from theme files
+- Shortcode Available [mtr_print] to be added to theme files or content
 
 * If you have any particular idea on how the plugin should work, raise a ticket in support section.
 
@@ -86,3 +84,7 @@ To be updated soon
 
 = 1.1 =
 - Minor Bug Fixes
+
+= 1.1 =
+- Added ShortCode [mtr_print] features.
+- Added function mtr_print() support to be called from theme files.
