@@ -1,0 +1,95 @@
+ .tbox
+{
+    margin: 20px 0;
+    overflow: auto;
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.tbox-heading
+{
+    border-bottom: 1px solid #dddddd;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    padding: 12px 15px;    
+}
+
+.tbox-body
+{
+    padding: 15px;
+}
+
+.tbox-footer 
+{
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-top: 1px solid #ddd;
+    padding: 8px 15px;
+}
+
+.tbox h3
+{
+    margin: 0;
+    display: inline-block;
+}
+
+.pull-right
+{
+    float: right;
+}
+
+#minstoread 
+{
+    background-color: #000;
+    border-radius: 3px;
+    color: #fff;    
+    font-family: Georgia;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 3px 8px;
+    position: fixed;    
+    font-family: arial;  
+    z-index: 500;
+    margin: 10px;
+    right: 0;
+}
+
+
+.minstoreadforposts 
+{
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#minstoreadforallposts:focus
+{
+    box-shadow: none;
+}
+
+#mtr_settings_form button
+{
+    margin-left: 10px;
+}
+
+#mtr_settings_form table td
+{
+	padding: 10px;
+}
+
+
+#mtr_settings_form select
+{
+	height: 30px;
+    width: 100%;
+}
+
+.mtr_success_msg
+{
+	font-size: 20px;
+	padding-left: 15px;
+	color: #368000;
+}
