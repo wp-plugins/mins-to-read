@@ -27,11 +27,14 @@ Automatically updates the read time based on the updates the blog post/article r
 - Shortcode Available [mtr_print] to be added to theme files or content
 
 * If you have any particular idea on how the plugin should work, raise a ticket in support section.
+* Like the plugin or want features? Tweet to us [@think201](https://twitter.com/think201)
+* Also you can read more about the plugin & its development at [Think201 Labs](http://labs.think201.com/plugin/mins-to-read/)
 
 = Plugin Support =
 
 If you have a question or problem with the Mins To Read plugin, post it on the support forum and we will help you.
 
+You can get in touch with us at [Think201 Labs](http://labs.think201.com/)
 
 = Requirements =
 
@@ -42,9 +45,9 @@ If you have a question or problem with the Mins To Read plugin, post it on the s
 
 == Installation == 
 
-1. Download [mins-to-read.zip](TODO: URL to be inserted)
-2.Upload the 'mins-to-read.zip' file from the Plugins->Add New page in the WordPress administration panel.
-3.Activate the plugin through the 'Plugins' menu in WordPress.
+* Download [mins-to-read.zip]
+* Upload the 'mins-to-read.zip' file from the Plugins->Add New page in the WordPress administration panel.
+* Activate the plugin through the 'Plugins' menu in WordPress.
 
 = Mins To Read Work flow Explained =
 
@@ -56,9 +59,10 @@ A click on Mins To Read will lead you to a form which lets you to configure the 
 2. Custom class is to provide custom css class to be applied on this feature.
 3. Click on Run will get you the read time for all your existing posts in single click.
 
+You can read about Mins To Read plugin more at [Think201 Labs](http://labs.think201.com/plugin/mins-to-read/)
 
 == Screenshots ==
-To be updated soon
+Screenshots available at [Think201 Labs](http://labs.think201.com/plugin/mins-to-read/)
 
 == Frequently Asked Questions ==
 
