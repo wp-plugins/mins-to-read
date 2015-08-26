@@ -1,20 +1,21 @@
 === Mins To Read ===
 Contributors: think201, anuragrath, vivekpandey
-Tags: time to read, wordpress plugin, blog, read time, calculation, minutes, words, time, calculator, 
+Tags: time to read, blog, read time, calculation, minutes, words, time, calculator
 Requires at least: 3.5.2
 Donate link: http://www.think201.com/
-Tested up to: 4.0
-Stable tag: 1.2
-Version: 1.2
+Tested up to: 4.2.2
+Stable tag: 1.2.1
+Version: 1.2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Let your readers know how much time the blog post gonnna take for reading. Mins To Read plugin calculates the read time of a blog post based on words present in it.
-
+Displays read time of your blog post.
 
 == Description ==
 
-Mins To Read is a plugin which calculates the read time of a blog post based on words present in it. Automatically updates the read time based on the updates the blog post/article recieves.This plugin takes care of calculation of read time of all your existing blog posts in a single click. Apart from this, users can configure reading speed for their posts. Default positions available with custom class addition support for the same. Users can position the mins to read feature by functional calls in theme file.
+Let your readers know how much time the blog post will take for reading. Mins To Read plugin calculates the read time of a blog post based on words present in it.
+
+Automatically updates the read time based on the updates the blog post/article recieves.This plugin takes care of calculation of read time of all your existing blog posts in a single click. Apart from this, users can configure reading speed for their posts. Default positions available with custom class addition support for the same. Users can position the mins to read feature by functional calls in theme file.
 
 
 = Salient Features = 
@@ -88,3 +89,7 @@ To be updated soon
 = 1.1 =
 - Added ShortCode [mtr_print] features.
 - Added function mtr_print() support to be called from theme files.
+
+= 1.2.1 =
+- Minor Bug Fixes
+- Making the default presentation optional

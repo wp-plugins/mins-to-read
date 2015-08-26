@@ -44,6 +44,14 @@ class MinsToRead
 			// check for position and set the position
 			global $post;
 
+			// check if the option is not through code go ahead & do this
+			$Options = unserialize(get_option(MTR_MINS_READ));
+
+			if(isset($Options['mtr_style']) AND $Options['mtr_style'] == 'code')
+			{
+				return $content;
+			}
+
 			MTRView::show_mtr($post->ID);
 		}		
 

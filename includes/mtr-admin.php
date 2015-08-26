@@ -36,15 +36,14 @@ class MTRAdmin
     // Minutes To Read Dashboard Function
     public function admin_dashboard() 
     {
-        require_once(MTRPLUGIN_DIR.'/includes/admin-dashboard.php');    
+        require_once(MTRPLUGIN_DIR.'/pages/admin-dashboard.php');    
     }
 
     public function adminScriptStyles()
     {
         if(is_admin()) 
         {        
-            wp_enqueue_style( 'think201-wp', plugins_url( 'mins-to-read/css/think201-wp.css' ), '', MTR_VERSION, 'all' );
-            wp_enqueue_style( 'mtr', plugins_url( 'mins-to-read/css/mtr.css' ), '', MTR_VERSION, 'all' );
+            wp_enqueue_style( 'mtr', plugins_url( 'mins-to-read/public/css/mtr-admin.css' ), '', MTR_VERSION, 'all' );
         }
     }
 
@@ -52,7 +51,7 @@ class MTRAdmin
     {
         if (!is_admin()) 
         {
-            wp_enqueue_style( 'mtr-user-css', plugins_url( 'mins-to-read/css/mtr.css' ), '', MTR_VERSION, 'all' );
+            wp_enqueue_style( 'mtr-user-css', plugins_url( 'mins-to-read/public/css/mtr-user.css' ), '', MTR_VERSION, 'all' );
         }
     }     
 }

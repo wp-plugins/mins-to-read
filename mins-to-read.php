@@ -1,10 +1,12 @@
 <?php
 /*
 Plugin Name: Mins To Read
-Plugin URI: http://www.think201.com
+Plugin URI: http://labs.think201.com/plugins/mins-to-read
 Description: Mins To Read is a plugin which calculates the read time of a blog post based on words present in it.
-Author: Think201, Vivek Pandey, Anurag Rath
-Version: 1.2
+Author: Think201
+Text Domain: mins-to-read
+Domain Path: /languages
+Version: 1.2.1
 Author URI: http://www.think201.com
 License: GPL v1
 
@@ -23,11 +25,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /**
  * @package Main
  */
-
-//start session
-if (session_id() == '') {
-	session_start();
-}
 
 if(version_compare(PHP_VERSION, '5.2', '<' )) 
 {
@@ -50,7 +47,7 @@ if ( !defined( 'MTR_BASENAME' ) )
 define( 'MTR_BASENAME', plugin_basename( __FILE__ ) );
 
 if ( !defined( 'MTR_VERSION' ) )
-define('MTR_VERSION', '1.0.5' );
+define('MTR_VERSION', '1.2.1' );
 
 if ( !defined( 'MTRPLUGIN_DIR' ) )
 define('MTRPLUGIN_DIR', dirname(__FILE__) );
@@ -83,6 +80,11 @@ register_activation_hook( __FILE__, array('MTR_Install', 'activate') );
 register_deactivation_hook( __FILE__, array('MTR_Install', 'deactivate') );
 register_uninstall_hook(    __FILE__, array('MTR_Install', 'delete') );
 
+function mins_to_read_load_plugin_textdomain() {
+    load_plugin_textdomain( 'mins-to-read', FALSE, basename( dirname( __FILE__ ) ) . '/languages/' );
+}
+add_action( 'plugins_loaded', 'mins_to_read_load_plugin_textdomain' );
+
 add_action( 'plugins_loaded', 'MinsToReadStart' );
 
 function MinsToReadStart()
@@ -94,8 +96,12 @@ function MinsToReadStart()
 	$mtrObj->init();
 }
 
-function mtr_print($Id)
+function mtr_print($Id = null)
 {
+	global $post;
+	
+	$Id = $post->ID;
+
 	if(!empty($Id) AND get_post_type( $Id ) === 'post')
 	{
 		MTRView::print_mtr($Id);

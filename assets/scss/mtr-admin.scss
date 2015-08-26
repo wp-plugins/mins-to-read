@@ -1,0 +1,31 @@
+@import 'think201-wp';
+
+
+#minstoreadforallposts:focus
+{
+    box-shadow: none;
+}
+
+#mtr_settings_form button
+{
+    margin-left: 10px;
+}
+
+#mtr_settings_form table td
+{
+	padding: 10px;
+}
+
+
+#mtr_settings_form select
+{
+	height: 30px;
+    width: 100%;
+}
+
+.mtr_success_msg
+{
+	font-size: 20px;
+	padding-left: 15px;
+	color: #368000;
+}
